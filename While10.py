@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+
+    i=0
+    sum=0
+    while i<=len(s)-1:
+        if int(s[i])%2!=0:
+            sum+=int(s[i])
+        i+=1
+    return sum
+print(main('234567892'))
