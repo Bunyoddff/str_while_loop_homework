@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    d=0
+    while i<=len(s)-1:
+        if s[i].isupper():
+            d+=1
+        i+=1
+    return d
+print(main('PythOn 2022'))
